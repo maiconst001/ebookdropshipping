@@ -1,0 +1,111 @@
+<!--
+      ___           ___                                                          ___         ___           ___           ___           ___
+     /  /\         /  /\         _____        ___           ___                 /  /\       /  /\         /  /\         /  /\         /  /\
+    /  /::\       /  /::\       /  /::\      /  /\         /  /\               /  /::\     /  /::\       /  /:/_       /  /:/_       /  /:/_
+   /  /:/\:\     /  /:/\:\     /  /:/\:\    /  /:/        /  /:/              /  /:/\:\   /  /:/\:\     /  /:/ /\     /  /:/ /\     /  /:/ /\
+  /  /:/  \:\   /  /:/~/:/    /  /:/~/::\  /__/::\       /  /:/              /  /:/~/:/  /  /:/~/::\   /  /:/_/::\   /  /:/ /:/_   /  /:/ /::\
+ /__/:/ \__\:\ /__/:/ /:/___ /__/:/ /:/\:| \__\/\:\__   /  /::\             /__/:/ /:/  /__/:/ /:/\:\ /__/:/__\/\:\ /__/:/ /:/ /\ /__/:/ /:/\:\
+ \  \:\ /  /:/ \  \:\/:::::/ \  \:\/:/~/:/    \  \:\/\ /__/:/\:\            \  \:\/:/   \  \:\/:/__\/ \  \:\ /~~/:/ \  \:\/:/ /:/ \  \:\/:/~/:/
+  \  \:\  /:/   \  \::/~~~~   \  \::/ /:/      \__\::/ \__\/  \:\            \  \::/     \  \::/       \  \:\  /:/   \  \::/ /:/   \  \::/ /:/
+   \  \:\/:/     \  \:\        \  \:\/:/       /__/:/       \  \:\            \  \:\      \  \:\        \  \:\/:/     \  \:\/:/     \__\/ /:/
+    \  \::/       \  \:\        \  \::/        \__\/         \__\/             \  \:\      \  \:\        \  \::/       \  \::/        /__/:/
+     \__\/         \__\/         \__\/                                          \__\/       \__\/         \__\/         \__\/         \__\/
+-->
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+
+    <title>Página não encontrada</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/manifest.json">
+
+    <meta name="msapplication-TileColor" content="#6101AB">
+    <meta name="msapplication-TileImage" content="/assets/img/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#6101AB">
+
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min_1.css" rel="stylesheet" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgba(97, 1, 171, .9), rgba(97, 1, 171, .8)), url('bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 4rem;
+        }
+
+        @media screen and (max-width: 700px) {
+            h1 {
+                font-size: 2.5rem;
+                line-height: 2.5rem;
+            }
+        }
+
+        @media screen and (min-width: 700px) {
+
+            .btn-group-lg>.btn,
+            .btn-lg {
+                padding: .75rem 1.25rem;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="row align-items-center justify-content-center min-vh-100">
+            <div class="col-md-10 align-self-center">
+                <script src="../js/lottie-player.js"></script>
+                <lottie-player src="/assets/img/404.json" background="../transparent_1.html" speed="1" class="w-100 align-middle" loop autoplay></lottie-player>
+
+                <h1 class="text-white align-middle mt-4">Oops... nada pra mostrar aqui!</h1>
+
+                <a href="/" class="btn btn-lg btn-light mt-4 mt-md-5">
+                    <img src="../fonts/arrow-left.svg" alt>
+                    Voltar
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    console.log(`Powered by:
+   ____       __    _ __     ____                       
+  / __ \\_____/ /_  (_) /_   / __ \\____ _____ ____  _____
+ / / / / ___/ __ \\/ / __/  / /_/ / __ \`/ __ \`/ _ \\/ ___/
+/ /_/ / /  / /_/ / / /_   / ____/ /_/ / /_/ /  __(__  ) 
+\\____/_/  /_.___/_/\\__/  /_/    \\__,_/\\__, /\\___/____/  
+                                     /____/             
+    `);
+</script>
+
+</html>
