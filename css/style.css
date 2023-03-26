@@ -1,0 +1,161 @@
+.animated-book {
+    animation: book 1s linear alternate infinite;   
+}
+
+
+@keyframes book {
+    from {
+        transform: translateY(20px);
+    }
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold !important;
+}
+
+.hero {
+    background: black;
+    color: white !important;
+}
+.hero * {
+    color: white !important;
+}
+
+.button-buy {
+    background-color: rgb(160, 25, 25);
+    width: 100%;
+    max-width: 500px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-buy:hover {
+    background-color: rgb(212, 0, 0);
+}
+
+
+.counter {
+    background-color: black;
+    font-weight: bolder !important;
+}
+
+.counter p {
+    font-weight: bolder !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+.container h2 {
+    font-weight: bold !important;
+    text-transform: capitalize;
+}
+
+.navbar-default {
+    display: none;
+}
+
+.whats {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+}
+
+.whats li {
+    list-style:circle;
+    margin-bottom: 30px;
+    padding: 0px;
+    text-align: left;
+    font-size: 25px;
+    margin: 20px;
+    max-width: 700px;
+}
+
+.reviews {
+    background: black;
+    color: white !important;
+}
+.reviews * {
+    color: white;
+}
+
+.author {
+    background: black;
+}
+
+.author * {
+    color: white;
+}
+
+.counter {
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-buy {
+    border-bottom: 5px solid white;
+    background-color: black !important;
+}
+
+.the-buy .action-button {
+    animation: buynow 1s linear alternate infinite !important;
+}
+
+
+@keyframes buynow {
+    to {
+        transform: scale(0.95);
+    }
+}
+
+.img-circle {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.new-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.new-area h1 {
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.new-area ul, .content {
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.new-area li {
+    list-style: circle;
+    font-size: 25px;
+}
+
+
+.area2 {
+    color: white;
+}
